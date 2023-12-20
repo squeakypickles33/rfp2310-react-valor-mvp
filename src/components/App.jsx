@@ -54,6 +54,9 @@ const App = () => {
       });
   };
 
+  console.log('customers:', customers);
+  console.log('companies:', companys);
+
   useEffect(() => {
     getCustomers();
     getCompanys();
